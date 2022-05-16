@@ -22,7 +22,7 @@ jobs:
         restoreSolution: '$(solution)'
     - task: SonarQubePrepare@5
       inputs:
-        SonarQube: 'SonarQubeTest'
+        SonarQube: 'SonarQube'
         scannerMode: 'MSBuild'
         projectKey: 'SonarQubeTest_Recipe-Api-Dotnet_AYDLgnsLuiHBvXcJgpj9'
     - task: VSBuild@1
